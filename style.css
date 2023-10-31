@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(120, 196, 135);
+
+}
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding:2rem 0;
+    position: relative;
+}
+.header-section ul{
+    font-size: 1rem;
+}
+.pofile-picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    object-fit: cover;
+    position: none;
+    top:75%;
+    left:75%;
+}    
+nav{
+    background-color: #333;
+    color:aqua;
+    text-align: center;
+    
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 ;
+}
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:red;
+}
+
+.section-content{
+    background-color:green;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius:10px;
+    box-shadow:  30px rgba(0,0,0,0.1);
+}
+.download-button{
+    background-color:#7c1ee7;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 24px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.download-button a{
+    background-color: #484649;
+
+}
+.hover{
+
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #333;
+    color: #fff;
+}
+ul{
+    list-style-type: disc;
+    padding-left: 20px;
+
+}
+
